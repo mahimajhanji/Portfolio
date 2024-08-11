@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Portfolio</a> </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="Hero">
+        <div class="home">
+            <h2>Hello, It's Me</h2>
+            <h1><i>MAHIMA JHANJI</i></h1>
+            <p class="container"><b>and I am </b><span id="text"></span></p>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed("#text", {
+                    strings: ["Developer", "Web Designer", "Programmer"],
+                    typeSpeed: 150,
+                    backspeed: 100,
+                    loop: true,
+                })
+            </script>
+            <p>I am a Front end Developer with a good experience expertise is to create a web design<br> for a web
+                application and many more..........</p>
+            <div class="homeicn">
+                <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                <a href=""><i class='bx bxl-whatsapp'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-telegram'></i></a>
+            </div>
+            <button class="button">
+                More About Me
+            </button>
+        </div>
+        <!-- <div class="image">
+            <img src="./image.png" alt="no image">
+        </div> -->
+    </section>
+    <section class="section2">
+        <div class="aboutcontent">
+            <h1>About me</h1>
+            <h2>Fullstack Developer</h2>
+            <p>I am skilled web designer having a good experience about web design. I am a <br>student at Mahakal
+                Institute of Technology and Management . I started my web <br>
+                development journey in the 2md year of my college and now currently I am in <br> my Third year of B.tech
+                Computer Science stream I have learned
+                various technologies <br> like html,css,jaascript and many other frameworks of web development although
+                i am <br> looking to work with client I have
+                created many web application with a great user interface(UI) <br> by the experience i have gain by
+                practising continously. I have also learned
+                various technology like <br> C,C++ for the various application development..... </p>
+            <button class="button">
+                More About Me
+            </button>
+        </div>
+        <!-- <div class="image2">
+            <img src="./laptopS.jpg" alt="no img">
+        </div> -->
+    </section>
+    <section class="Servicescard">
+        <h1><span>My Services</span></h1>
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="card-icn">
+                    <i class='bx bx-expand-horizontal' style="color: aqua;"></i>
+                </div>
+                <div class="card-cont">
+                    <h1>UI/UX design</h1>
+                    <p>one of my service is UI/UX design in which i have alot of experience about the UI/Ux design of
+                        the componets created a different type of UI for the great experience of the user.. </p>
+                </div>
+                <div class="card-btn">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icn">
+                    <i class="bx bx-code-block" style="color:aqua;"></i>
+                </div>
+                <div class="card-cont">
+                    <h1>Web Design</h1>
+                    <p>one of my service is web design in which i have alot of experience about creating differnet web
+                        application componets with a great experience i have created a different type of web application
+                        for the great experience of the user.. </p>
+                </div>
+                <div class="card-btn">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icn">
+                    <i class='bx bx-code-alt' style="color: aqua;"></i>
+                </div>
+                <div class="card-cont">
+                    <h1>Applications</h1>
+                    <p>i have created different types of system application which was helpful to the user ,i have
+                        created this application by the help of different programming languages like c,c++,java etc..
+                    </p>
+                </div>
+                <div class="card-btn">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section >
+                 <div class="myskills">
+                  <h1>My Skills</h1>
+                </div>
+                   <div class="skill-container" id="Skills">
+                    <h2>Technical Skills</h2>
+                           <div class="technicalbars">
+                                <div class="bars">
+                                    <i class='bx bxl-html5' style="color: rgb(226, 120, 27); font-size: 30px;"></i>
+                                    <div class="info"><span>HTML</span></div>
+                                        <div class="progress-line html">
+                                            <span></span>
+                                        </div>
+
+            <i class='bx bxl-css3' style="color: blue; font-size: 30px;"></i>
+            <div class="info"><span>CSS</span></div>
+            <div class="progress-line css">
+                <span></span>
+            </div>
+            <i class='bx bxl-javascript' style="color:yellow; font-size: 30px;"></i>
+            <div class="info"><span>javascript</span></div>
+            <div class="progress-line javascript">
+                <span></span>
+            </div>
+            <i class='bx bxl-java' style="color:rgb(107, 6, 6); font-size:30px"></i>
+            <div class="info"><span>Java</span></div>
+            <div class="progress-line java">
+                <span></span>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="mycards">
+        <div class="ptitle">
+        <h1>My Projects</h1>
+        </div>
+        <div class="wrappper">
+        <div class="card">
+            <div class="pcard">
+            <h1>Book Inventory System </h1>
+            <p>This is my first project. With the help of the book inventory system you can store the book records.</p>
+            </div>
+            <div class="p-btn">
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+                <div class="card">
+                    <div class="pcard">
+                        <h1>Exam Portal</h1>
+                        <p>This is my second project. In this project you can register for online university exam...</p>
+                    </div>
+                    <div class="p-btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contact-form">
+        <div class="cont">
+       
+        <div class="c1">
+    <h1>Contact Me</h1>
+        </div>
+        <div class="c2">
+    <input type="text" placeholder="Enter Your Name">
+    <input type="text" placeholder="Enter Your Contact Number">
+    <input type="text" placeholder="Enter Your E-Mail Address">
+        </div>
+        <div class="social">
+                    <a href=""><i class='bx bxl-facebook bx-tada' style='color:rgb(186, 96, 228)' ></i></a>
+                    <a href=""><i class='bx bxl-whatsapp bx-tada' style='color:rgb(186, 96, 228)' ></i></a>
+                    <a href=""><i class='bx bxl-instagram bx-tada' style='color:rgb(186, 96, 228)' ></i></a>
+                    <a href=""><i class='bx bxl-telegram bx-tada' style='color:rgb(186, 96, 228)' ></i></a>
+                  </div>
+          </div>
+      </div>
+      </section>
+</body>
+
+</html> 
